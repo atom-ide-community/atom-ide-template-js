@@ -1,6 +1,6 @@
 # atom-ide-template-js
 
-This is a template for atom-ide-community packages using TypeScript.
+This is a template for atom-ide-community packages using JavaScript. It is recommended to use [the TypeScript template](https://github.com/atom-ide-community/atom-ide-template) instead.
 
 Use `Ctrl+Shift+F` and replace `atom-ide-template-js` with `atom-ide-packagename`. Then put your name in the licesne section and author section.
 
