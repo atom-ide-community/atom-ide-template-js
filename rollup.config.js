@@ -1,15 +1,16 @@
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
-import typescript from "@rollup/plugin-typescript";
+// import typescript from "@rollup/plugin-typescript";
 // import coffeescript from 'rollup-plugin-coffee-script';
+import babel from "rollup-plugin-babel";
 // import json from "@rollup/plugin-json"
 import { terser } from "rollup-plugin-terser";
 
 let plugins = [
   // so Rollup can convert TypeScript to JavaScript
-  typescript({
-    noEmitOnError: false,
-  }),
+  // typescript({
+  //   noEmitOnError: false,
+  // }),
 
   // if any (in deps as well): Convert CoffeeScript to JavaScript
   // coffeescript(),
@@ -18,6 +19,8 @@ let plugins = [
   // json(
   //   { compact: true }
   // ),
+
+  babel(),
 
   // so Rollup can find externals
   resolve({ extensions: ["ts", ".js", ".coffee"], preferBuiltins: true }),
@@ -42,7 +45,7 @@ if (process.env.NODE_ENV === "production") {
 
 export default [
   {
-    input: "src/main.ts",
+    input: "src/main.js",
     output: [
       {
         dir: "dist",

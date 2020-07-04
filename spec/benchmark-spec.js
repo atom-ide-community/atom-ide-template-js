@@ -8,9 +8,9 @@ describe("Benchmark", () => {
     // Activate the package
     await atom.packages.activatePackage("atom-ide-markdown-service");
     measure("Activation Time", async function activationBenchmark() {
-      await atom.packages.activatePackage("atom-ide-template");
+      await atom.packages.activatePackage("atom-ide-template-js");
     });
 
-    expect(atom.packages.isPackageLoaded("atom-ide-template")).toBeTruthy();
+    expect(atom.packages.isPackageLoaded("atom-ide-template-js")).toBeTruthy();
   });
 });

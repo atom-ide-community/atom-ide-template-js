@@ -10,10 +10,10 @@ describe("tests", () => {
     // Activate package-deps
     await atom.packages.activatePackage("atom-ide-markdown-service");
     // Activate the package
-    await atom.packages.activatePackage("atom-ide-template");
+    await atom.packages.activatePackage("atom-ide-template-js");
   });
 
   it("Activation", async function () {
-    expect(atom.packages.isPackageLoaded("atom-ide-template")).toBeTruthy();
+    expect(atom.packages.isPackageLoaded("atom-ide-template-js")).toBeTruthy();
   });
 });
