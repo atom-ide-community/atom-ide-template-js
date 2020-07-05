@@ -78,7 +78,6 @@
     "@babel/plugin-proposal-throw-expressions": "latest",
     "@babel/plugin-syntax-dynamic-import": "latest",
     "@babel/plugin-syntax-import-meta": "latest",
-    "@babel/plugin-transform-async-to-generator": "latest",
     "@babel/preset-env": "latest",
     "@babel/preset-flow": "latest",
     "@babel/preset-react": "latest",
