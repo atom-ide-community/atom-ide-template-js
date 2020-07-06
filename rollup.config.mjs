@@ -5,8 +5,15 @@ import commonjs from "@rollup/plugin-commonjs";
 import babel from "rollup-plugin-babel";
 // import json from "@rollup/plugin-json"
 import { terser } from "rollup-plugin-terser";
+import autoExternal from 'rollup-plugin-auto-external';
 
 let plugins = [
+  autoExternal({
+    builtins: true,
+    dependencies: false,
+    peerDependencies: false
+  }),
+
   // so Rollup can convert TypeScript to JavaScript
   // typescript({
   //   noEmitOnError: false,
@@ -56,9 +63,6 @@ export default [
     // loaded externally
     external: [
       "atom",
-      // node stuff
-      "path",
-      "fs",
     ],
     plugins: plugins,
   },

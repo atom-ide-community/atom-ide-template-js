@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@types/atom": "latest",
-    "@types/node": "^14.0.14",
+    "@types/node": "^14.0.18",
     "typescript": "^3.9.6",
     "tslib": "^2.0.0",
     "coffeescript": "^2.5.1",
@@ -59,6 +59,7 @@
     "rollup-plugin-babel": "^4.4.0",
     "@rollup/plugin-json": "latest",
     "rollup-plugin-terser": "latest",
+    "rollup-plugin-auto-external": "latest",
     "shx": "latest",
     "@babel/cli": "7.10.4",
     "@babel/core": "7.10.4",
