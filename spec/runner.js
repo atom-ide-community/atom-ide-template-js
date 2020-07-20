@@ -7,6 +7,8 @@ export default createRunner({
   testPackages: Array.from(pkg["package-deps"]),
   timeReporter: true,
   specHelper: {
+    atom: true,
+    ci: true,
     attachToDom: true,
     // Extra Packages
     customMatchers: true,
