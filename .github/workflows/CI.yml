@@ -27,7 +27,7 @@ jobs:
         run: |
           apm ci  # uses locked module. use `apm install` for non-locked
       - name: Atom Package dependencies
-        run: node ./install-package-deps.js
+        run: node ./github/workflows/install-package-deps.js
       - name: Run tests 👩🏾‍💻
         run: npm run test
 
