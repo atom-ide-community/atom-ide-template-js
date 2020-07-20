@@ -7,7 +7,7 @@ export default createRunner({
   testPackages: Array.from(pkg["package-deps"]),
   timeReporter: true,
   specHelper: {
-    attachToDOM: true,
+    attachToDom: true,
     // Extra Packages
     customMatchers: true,
     jasmineFocused: false,
