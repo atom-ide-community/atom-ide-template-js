@@ -19,5 +19,5 @@ export default createRunner({
     mockLocalStorage: false,
     profile: true,
     unspy: false,
-  }
+  },
 });
