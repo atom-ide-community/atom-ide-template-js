@@ -12,6 +12,7 @@ export function activate(state) {
 
   package_deps().then(() => {
     // do package stuff here
+    atom.notifications.addInfo("Hi")
   })
 }
 
