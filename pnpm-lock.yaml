@@ -9,7 +9,7 @@ devDependencies:
   atom-jasmine3-test-runner: 5.1.6
   babel-preset-atomic: 2.5.4_3b4728ed79b31306f6773a6f5aa888fa
   build-commit: 0.1.1
-  coffeescript: 2.5.1
+  coffeescript: 1.12.7
   cross-env: 7.0.2
   eslint: 7.12.0
   eslint-config-atomic: 1.5.0_eslint@7.12.0
@@ -7204,7 +7204,7 @@ specifiers:
   atom-package-deps: ^6.0.0
   babel-preset-atomic: ^2.5.4
   build-commit: 0.1.1
-  coffeescript: ^2.5.1
+  coffeescript: ~1.12.7
   cross-env: ^7.0.2
   eslint: 7.12.0
   eslint-config-atomic: ^1.5.0
