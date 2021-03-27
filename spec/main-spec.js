@@ -7,11 +7,12 @@ describe("tests", () => {
     atom.packages.triggerDeferredActivationHooks()
     // Activate activation hook
     atom.packages.triggerActivationHook("core:loaded-shell-environment")
+
     // Activate the package
-    await atom.packages.activatePackage("atom-ide-template-js")
+    await atom.packages.activatePackage("atom-ide-template")
   })
 
   it("Activation", async function () {
-    expect(atom.packages.isPackageLoaded("atom-ide-template-js")).toBeTruthy()
+    expect(atom.packages.isPackageLoaded("atom-ide-template")).toBeTruthy()
   })
 })
