@@ -1,5 +1,5 @@
 dependencies:
-  atom-package-deps: 7.2.2
+  atom-package-deps: 7.2.3
 devDependencies:
   '@babel/cli': 7.13.10_@babel+core@7.13.10
   '@babel/core': 7.13.10
@@ -1968,11 +1968,11 @@ packages:
       '@types/jasmine': 3.6.7
     resolution:
       integrity: sha512-wcWeasDDlqtUzQpaWJ6R9SaCNSUXd8Q9N30Aze0PcX/yXVjhcGJSRhXdilHOvEF0XhOajJ8apl3Eur5tsTGGPA==
-  /atom-package-deps/7.2.2:
+  /atom-package-deps/7.2.3:
     dev: false
     hasBin: true
     resolution:
-      integrity: sha512-xV4l1Ll987zluBjMiYGtDbZbdM5PF/hOECgaI2mv2+dNzbuugd2M+A2liw1JUenuGrngGw/wcpPqXpAVMGFeDw==
+      integrity: sha512-Z1FHJS2c2xBN3wQVniG7jXDyE4mUjZlHA0tfIkCND9U/fHaZyBJPno4/jD8PtYUnhlymaHRbCsgxCU3QuKjqfQ==
   /aws-sign2/0.7.0:
     dev: true
     resolution:
@@ -7389,7 +7389,7 @@ specifiers:
   '@types/jasmine': ^3.6.7
   '@types/node': ^14.14.35
   atom-jasmine3-test-runner: ^5.2.2
-  atom-package-deps: ^7.2.2
+  atom-package-deps: ^7.2.3
   babel-preset-atomic: ^3.0.3
   build-commit: 0.1.4
   coffeescript: ~2.5.1
