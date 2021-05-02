@@ -2,7 +2,7 @@ import { createPlugins } from "rollup-plugin-atomic"
 
 const plugins = createPlugins(["js", "babel"])
 
-export default [
+const RollupConfig = [
   {
     input: "src/main.js",
     output: [
@@ -14,6 +14,7 @@ export default [
     ],
     // loaded externally
     external: ["atom"],
-    plugins: plugins,
+    plugins,
   },
 ]
+export default RollupConfig
