@@ -4,20 +4,20 @@ specifiers:
   '@babel/cli': 7.13.16
   '@babel/core': 7.14.0
   '@types/atom': 1.40.10
-  '@types/jasmine': ^3.6.10
-  '@types/node': ^15.0.1
-  atom-jasmine3-test-runner: ^5.2.3
+  '@types/jasmine': ^3.7.1
+  '@types/node': ^15.0.2
+  atom-jasmine3-test-runner: ^5.2.4
   atom-package-deps: ^7.2.3
   babel-preset-atomic: ^4.1.0
   build-commit: 0.1.4
   coffeescript: ~2.5.1
   cross-env: ^7.0.3
-  eslint: 7.25.0
+  eslint: 7.26.0
   eslint-config-atomic: ^1.14.3
-  npm-check-updates: 11.5.9
+  npm-check-updates: 11.5.10
   prettier: ^2.2.1
-  prettier-config-atomic: ^2.0.3
-  rollup: ^2.46.0
+  prettier-config-atomic: ^2.0.4
+  rollup: ^2.47.0
   rollup-plugin-atomic: ^2.3.1
   shx: ^0.3.3
   typescript: ^4.2.4
@@ -29,20 +29,20 @@ devDependencies:
   '@babel/cli': 7.13.16_@babel+core@7.14.0
   '@babel/core': 7.14.0
   '@types/atom': 1.40.10
-  '@types/jasmine': 3.6.10
-  '@types/node': 15.0.1
-  atom-jasmine3-test-runner: 5.2.3
+  '@types/jasmine': 3.7.1
+  '@types/node': 15.0.2
+  atom-jasmine3-test-runner: 5.2.4
   babel-preset-atomic: 4.1.0
   build-commit: 0.1.4
   coffeescript: 2.5.1
   cross-env: 7.0.3
-  eslint: 7.25.0
+  eslint: 7.26.0
   eslint-config-atomic: 1.14.3
-  npm-check-updates: 11.5.9
+  npm-check-updates: 11.5.10
   prettier: 2.2.1
-  prettier-config-atomic: 2.0.3
-  rollup: 2.46.0
-  rollup-plugin-atomic: 2.3.1_@types+node@15.0.1
+  prettier-config-atomic: 2.0.4
+  rollup: 2.47.0
+  rollup-plugin-atomic: 2.3.1_@types+node@15.0.2
   shx: 0.3.3
   typescript: 4.2.4
 
@@ -1425,6 +1425,21 @@ packages:
       strip-json-comments: 3.1.1
     dev: true
 
+  /@eslint/eslintrc/0.4.1:
+    resolution: {integrity: sha512-5v7TDE9plVhvxQeWLXDTvFvJBdH6pEsdnl2g/dAptmuFEPedQ4Erq5rsDsX+mvAM610IhNaO2W5V1dOOnDKxkQ==}
+    engines: {node: ^10.12.0 || >=12.0.0}
+    dependencies:
+      ajv: 6.12.6
+      debug: 4.1.1
+      espree: 7.3.1
+      globals: 12.4.0
+      ignore: 4.0.6
+      import-fresh: 3.2.1
+      js-yaml: 3.14.0
+      minimatch: 3.0.4
+      strip-json-comments: 3.1.1
+    dev: true
+
   /@nicolo-ribaudo/chokidar-2/2.1.8-no-fsevents:
     resolution: {integrity: sha512-+nb9vWloHNNMFHjGofEam3wopE3m1yuambrrd/fnPc+lFOMB9ROTqQlche9ByFWNkdNqfSgR/kkQtQ8DzEWt2w==}
     dependencies:
@@ -1665,8 +1680,8 @@ packages:
     resolution: {integrity: sha512-jnqIUKDUqJbDIUxm0Uj7bnlMnRm1T/eZ9N+AVMqhPgzrba2GhGG5o/jCTwmdPK709nEZsGoMzXEDUjcXHa3W0g==}
     dev: true
 
-  /@types/jasmine/3.6.10:
-    resolution: {integrity: sha512-yfCl7JGtIc5LjScFpeIGBBNhJFkJdAAcsAnAd9ZRHwzh+sR2zkt257BKkTCF5VpJ8wMPnzzZ8QatRdXM8tqpKA==}
+  /@types/jasmine/3.7.1:
+    resolution: {integrity: sha512-MP1bcwS0MXQSKPBd20wv0rqF+GOfHTchz4mKFkS4ajAmz2oYwhOpSE9FPe611TOOarA061itZwUQUYRI5mPJsA==}
     dev: true
 
   /@types/json-schema/7.0.5:
@@ -1689,6 +1704,10 @@ packages:
 
   /@types/node/15.0.1:
     resolution: {integrity: sha512-TMkXt0Ck1y0KKsGr9gJtWGjttxlZnnvDtphxUOSd0bfaR6Q1jle+sPvrzNR1urqYTWMinoKvjKfXUGsumaO1PA==}
+    dev: true
+
+  /@types/node/15.0.2:
+    resolution: {integrity: sha512-p68+a+KoxpoB47015IeYZYRrdqMUcpbK8re/zpFB8Ld46LHC1lPEbp3EXgkEhAYEcPvjJF6ZO+869SQ0aH1dcA==}
     dev: true
 
   /@types/parse-json/4.0.0:
@@ -2084,13 +2103,13 @@ packages:
     hasBin: true
     dev: true
 
-  /atom-jasmine3-test-runner/5.2.3:
-    resolution: {integrity: sha512-kihvVsYks/T5uzpl1H527BeTXGDU4RwYU5ji+myRk/Kp6gPNlcvk6XO6r5WJFiKSWZUUBgUX7xBoCrdyhJKxSA==}
+  /atom-jasmine3-test-runner/5.2.4:
+    resolution: {integrity: sha512-OOajgKkc6eYOQohnyjRE1DepQv60mwI3D6wJo5fB1tBhdA6ixE/l2OSZ55gQG9/IWE/gn0U3P08O4/uSk3I20w==}
     dependencies:
       etch: 0.14.1
       find-parent-dir: 0.3.0
       fs-plus: 3.1.1
-      glob: 7.1.6
+      glob: 7.1.7
       grim: 2.0.3
       jasmine: 3.7.0
       jasmine-local-storage: 1.1.1_jasmine@3.7.0
@@ -2105,7 +2124,7 @@ packages:
       underscore-plus: 1.7.0
     optionalDependencies:
       '@types/atom': 1.40.10
-      '@types/jasmine': 3.6.10
+      '@types/jasmine': 3.7.1
     dev: true
 
   /atom-package-deps/7.2.3:
@@ -2455,7 +2474,7 @@ packages:
       '@npmcli/move-file': 1.0.1
       chownr: 2.0.0
       fs-minipass: 2.1.0
-      glob: 7.1.6
+      glob: 7.1.7
       infer-owner: 1.0.4
       lru-cache: 6.0.0
       minipass: 3.1.3
@@ -3560,6 +3579,50 @@ packages:
       v8-compile-cache: 2.1.1
     dev: true
 
+  /eslint/7.26.0:
+    resolution: {integrity: sha512-4R1ieRf52/izcZE7AlLy56uIHHDLT74Yzz2Iv2l6kDaYvEu9x+wMB5dZArVL8SYGXSYV2YAg70FcW5Y5nGGNIg==}
+    engines: {node: ^10.12.0 || >=12.0.0}
+    hasBin: true
+    dependencies:
+      '@babel/code-frame': 7.12.11
+      '@eslint/eslintrc': 0.4.1
+      ajv: 6.12.6
+      chalk: 4.1.1
+      cross-spawn: 7.0.3
+      debug: 4.1.1
+      doctrine: 3.0.0
+      enquirer: 2.3.6
+      eslint-scope: 5.1.1
+      eslint-utils: 2.1.0
+      eslint-visitor-keys: 2.0.0
+      espree: 7.3.1
+      esquery: 1.4.0
+      esutils: 2.0.3
+      file-entry-cache: 6.0.1
+      functional-red-black-tree: 1.0.1
+      glob-parent: 5.1.1
+      globals: 13.7.0
+      ignore: 4.0.6
+      import-fresh: 3.2.1
+      imurmurhash: 0.1.4
+      is-glob: 4.0.1
+      js-yaml: 3.14.0
+      json-stable-stringify-without-jsonify: 1.0.1
+      levn: 0.4.1
+      lodash: 4.17.21
+      minimatch: 3.0.4
+      natural-compare: 1.4.0
+      optionator: 0.9.1
+      progress: 2.0.3
+      regexpp: 3.1.0
+      semver: 7.3.5
+      strip-ansi: 6.0.0
+      strip-json-comments: 3.1.1
+      table: 6.0.7
+      text-table: 0.2.0
+      v8-compile-cache: 2.1.1
+    dev: true
+
   /espree/7.3.1:
     resolution: {integrity: sha512-v3JCNCE64umkFpmkFGqzVKsOT0tN1Zr+ueqLZfpV1Ob8e+CEgPWa+OxCoGH3tnhimMKIaBm4m/vaRpJ/krRz2g==}
     engines: {node: ^10.12.0 || >=12.0.0}
@@ -3939,6 +4002,17 @@ packages:
 
   /glob/7.1.6:
     resolution: {integrity: sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==}
+    dependencies:
+      fs.realpath: 1.0.0
+      inflight: 1.0.6
+      inherits: 2.0.4
+      minimatch: 3.0.4
+      once: 1.4.0
+      path-is-absolute: 1.0.1
+    dev: true
+
+  /glob/7.1.7:
+    resolution: {integrity: sha512-OvD9ENzPLbegENnYP5UUfJIirTg4+XwMWGaQfQTY0JenxNvvIKP3U3/tAQSPIu/lHxXYSZmpXlUHeqAIdKzBLQ==}
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
@@ -4660,7 +4734,7 @@ packages:
     resolution: {integrity: sha512-wlzGQ+cIFzMEsI+wDqmOwvnjTvolLFwlcpYLCqSPPH0prOQaW3P+IzMhHYn934l1imNvw07oCyX+vGUv3wmtSQ==}
     hasBin: true
     dependencies:
-      glob: 7.1.6
+      glob: 7.1.7
       jasmine-core: 3.7.1
     dev: true
 
@@ -4729,13 +4803,6 @@ packages:
     dependencies:
       argparse: 1.0.10
       esprima: 4.0.1
-    dev: true
-
-  /js-yaml/4.0.0:
-    resolution: {integrity: sha512-pqon0s+4ScYUvX30wxQi3PogGFAlUyH0awepWvwkj4jD4v+ova3RiYw8bmA6x2rDrEaj8i/oWKoRxpVNW+Re8Q==}
-    hasBin: true
-    dependencies:
-      argparse: 2.0.1
     dev: true
 
   /js-yaml/4.1.0:
@@ -5308,7 +5375,7 @@ packages:
     hasBin: true
     dependencies:
       env-paths: 2.2.0
-      glob: 7.1.6
+      glob: 7.1.7
       graceful-fs: 4.2.4
       nopt: 5.0.0
       npmlog: 4.1.2
@@ -5364,8 +5431,8 @@ packages:
       npm-normalize-package-bin: 1.0.1
     dev: true
 
-  /npm-check-updates/11.5.9:
-    resolution: {integrity: sha512-D+FgrBNtBJHl+D1n364CsQy/o6JIrh+7v+SXngNzAeyOVvc8w/1yr5pvqguVQWIvduC3HcRI87amkDp7ipzH7A==}
+  /npm-check-updates/11.5.10:
+    resolution: {integrity: sha512-+nKrlBaDglNQWEV5+bx6ZMJAc6VA/aKbqtKs+fr6ewcedF2hfMxHMZe5b8mW9SUu+bjtt/SrPHxkoAiepZIFpA==}
     engines: {node: '>=10.17'}
     hasBin: true
     dependencies:
@@ -5423,7 +5490,7 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
-      glob: 7.1.6
+      glob: 7.1.7
       ignore-walk: 3.0.3
       npm-bundled: 1.1.1
       npm-normalize-package-bin: 1.0.1
@@ -5853,8 +5920,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier-config-atomic/2.0.3:
-    resolution: {integrity: sha512-t4ILoW9A6JrzPA64XtXcLxZ1DrsEh/7RuKblGrqy7aEBXbHOjBLfaIeOcQa1dRgZc9gphwB65FZxhcN9HfXBRw==}
+  /prettier-config-atomic/2.0.4:
+    resolution: {integrity: sha512-EuJ8YVKVmgZBDRVKoCYHvuKfq+Dqd12bA3rD387n4zoB/KaeozEsCd48tYosx6+JxB2LFmN8rcl6qKERL6guZQ==}
     dependencies:
       prettier: 2.2.1
       prettier-plugin-jsdoc: 0.3.22_prettier@2.2.1
@@ -5967,7 +6034,7 @@ packages:
     resolution: {integrity: sha512-//LRTblJEcqbmmro1GCmZ39qZXD+JqzuD8Y5/IZU3Dhp3A1Yr0Xn68ks8MQ6qKfKvYCWDveUmRDKDA40c+sCXw==}
     dependencies:
       debug: 4.1.1
-      js-yaml: 4.0.0
+      js-yaml: 4.1.0
       json5: 2.1.3
       require-from-string: 2.0.2
     dev: true
@@ -6277,21 +6344,21 @@ packages:
     resolution: {integrity: sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==}
     hasBin: true
     dependencies:
-      glob: 7.1.6
+      glob: 7.1.7
     dev: true
 
   /rimraf/2.7.1:
     resolution: {integrity: sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==}
     hasBin: true
     dependencies:
-      glob: 7.1.6
+      glob: 7.1.7
     dev: true
 
   /rimraf/3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
     hasBin: true
     dependencies:
-      glob: 7.1.6
+      glob: 7.1.7
     dev: true
 
   /rollup-plugin-assemblyscript/2.0.0_assemblyscript@0.18.5:
@@ -6303,7 +6370,7 @@ packages:
       assemblyscript: 0.18.5
     dev: true
 
-  /rollup-plugin-atomic/2.3.1_@types+node@15.0.1:
+  /rollup-plugin-atomic/2.3.1_@types+node@15.0.2:
     resolution: {integrity: sha512-J667XhAcQ7+4LudaYVWeMIeYyvF5+qCy69oHBDs/ATIcTjCYyskfKda4LRt3OBHjD/C43a2szN9v6bmnBycKgg==}
     dependencies:
       '@rollup/plugin-babel': 5.3.0_@babel+core@7.14.0+rollup@2.46.0
@@ -6321,7 +6388,7 @@ packages:
       rollup-plugin-coffee-script: 2.0.0_coffeescript@1.12.7
       rollup-plugin-css-only: 3.1.0_rollup@2.46.0
       rollup-plugin-execute: 1.1.1
-      rollup-plugin-sourcemaps: 0.6.3_@types+node@15.0.1+rollup@2.46.0
+      rollup-plugin-sourcemaps: 0.6.3_@types+node@15.0.2+rollup@2.46.0
       rollup-plugin-terser: 7.0.2_rollup@2.46.0
       rollup-plugin-visualizer: 5.4.1_rollup@2.46.0
       tslib: 2.2.0
@@ -6383,7 +6450,7 @@ packages:
       resolve: 1.19.0
     dev: true
 
-  /rollup-plugin-sourcemaps/0.6.3_@types+node@15.0.1+rollup@2.46.0:
+  /rollup-plugin-sourcemaps/0.6.3_@types+node@15.0.2+rollup@2.46.0:
     resolution: {integrity: sha512-paFu+nT1xvuO1tPFYXGe+XnQvg4Hjqv/eIhG8i5EspfYYPBKL57X7iVbfv55aNVASg3dzWvES9dmWsL2KhfByw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
@@ -6394,7 +6461,7 @@ packages:
         optional: true
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.46.0
-      '@types/node': 15.0.1
+      '@types/node': 15.0.2
       rollup: 2.46.0
       source-map-resolve: 0.6.0
     dev: true
@@ -6433,6 +6500,14 @@ packages:
 
   /rollup/2.46.0:
     resolution: {integrity: sha512-qPGoUBNl+Z8uNu0z7pD3WPTABWRbcOwIrO/5ccDJzmrtzn0LVf6Lj91+L5CcWhXl6iWf23FQ6m8Jkl2CmN1O7Q==}
+    engines: {node: '>=10.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /rollup/2.47.0:
+    resolution: {integrity: sha512-rqBjgq9hQfW0vRmz+0S062ORRNJXvwRpzxhFXORvar/maZqY6za3rgQ/p1Glg+j1hnc1GtYyQCPiAei95uTElg==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
